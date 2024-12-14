@@ -23,10 +23,11 @@ const LoginPage = ({ handlePageChange, handleLogin }) => {
         const data = await response.json();
 
         if (response.ok) {
+          // If login is successful, trigger the login function in App.js
           alert(data.message); // Optionally alert the success message
-          handleLogin(); // Call handleLogin from App.js to redirect to the home page
+          handleLogin(); // Call the handleLogin function from App.js to redirect to HomePage
         } else {
-          setErrorMessage(data.message); // Show error message if login fails
+          setErrorMessage(data.message); // Display error message if login fails
         }
       } catch (error) {
         setErrorMessage('Error logging in');

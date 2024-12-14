@@ -26,7 +26,7 @@ const HomePage = ({ handleBrowseProducts, handleBrowseServices, handleViewCart, 
         {/* Browse Products Button */}
         <div className="button-item">
           <img
-            src="https://via.placeholder.com/300x200?text=Browse+Products"
+            src="https://img.freepik.com/premium-photo/collection-electronic-devices-including-laptop-phone-ipod_1065421-12202.jpg"
             alt="Browse Products"
             className="button-image"
           />
@@ -38,7 +38,7 @@ const HomePage = ({ handleBrowseProducts, handleBrowseServices, handleViewCart, 
         {/* Browse Services Button */}
         <div className="button-item">
           <img
-            src="https://via.placeholder.com/300x200?text=Browse+Services"
+            src="https://orderry.com/uploads/wysiwyg/blog/business-continuous/start-electronics-repair/man-repairing-laptop.webp"
             alt="Browse Services"
             className="button-image"
           />

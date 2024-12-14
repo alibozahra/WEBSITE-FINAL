@@ -5,17 +5,17 @@ const services = [
   {
     name: 'Screen Repair',
     description: 'Fix your cracked or damaged screen with high-quality replacement parts.',
-    image: 'https://via.placeholder.com/300x200?text=Screen+Repair',
+    image: 'https://m.media-amazon.com/images/I/61aZmrGlg6L._AC_SL1000_.jpg',
   },
   {
     name: 'Software Update',
     description: 'Update your device with the latest software version and enhancements.',
-    image: 'https://via.placeholder.com/300x200?text=Software+Update',
+    image: 'https://img.freepik.com/premium-vector/system-software-update-illustration_100456-2033.jpg',
   },
   {
     name: 'Battery Change',
     description: 'Replace your old battery with a new one for longer-lasting performance.',
-    image: 'https://via.placeholder.com/300x200?text=Battery+Change',
+    image: 'https://media.istockphoto.com/id/1370904031/photo/technician-change-and-insert-new-laptop-battery-computer-repair-service.jpg?s=612x612&w=0&k=20&c=qUdopnSdf7IEZntP8o2psamRkJLxJdaMpgaJN04KviU=',
   },
 ];
 
