@@ -1,0 +1,159 @@
+/* ServicesPage.css */
+.services-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif; /* Use the same font as the rest of the website */
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333; /* Dark text color for the title */
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* White background for the service cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a modern feel */
+    transition: box-shadow 0.3s ease-in-out; /* Add smooth transition on hover */
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .service-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service-name {
+    font-size: 1.3rem;
+    margin: 15px 0;
+    color: #444; /* Slightly lighter text color for the service name */
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666; /* Lighter color for descriptions */
+  }
+  
+  /* Request Repair Button */
+  .request-repair-btn {
+    background-color: #365eab; /* Same green as other pages */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add smooth hover transition */
+  }
+  
+  .request-repair-btn:hover {
+    background-color: #365eab; /* Darken green on hover */
+    transform: translateY(-2px); /* Add a subtle lift effect */
+  }
+  
+  .return-home-btn {
+    background-color: #008CBA; /* Blue button to match the overall design */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .return-home-btn:hover {
+    background-color: #007bb5; /* Darker blue on hover */
+    transform: translateY(-2px);
+  }
+  
+  /* Modal Styles */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .submit-repair-btn {
+    background-color: #4e73df; /* Green button for submit */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-repair-btn:hover {
+    background-color: #365eab; /* Darker green on hover */
+  }
+  
+  .cancel-btn {
+    background-color: #f44336; /* Red button to cancel */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  
