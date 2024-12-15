@@ -20,25 +20,25 @@ const CheckoutPage = ({ cart, userInfo, handleConfirmOrder }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Calculate total price
-    const totalPrice = cart.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
+     // Calculate total price
+     const totalPrice = cart.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0).toFixed(2);
 
-    // Create the order info object
-    const orderInfo = {
-      userId: userInfo ? userInfo.id : null,
-      name: userData.name,
-      address: userData.address,
-      city: userData.city,
-      paymentMethod: userData.paymentMethod,
-      totalPrice: totalPrice,
-      products: cart, // Ensure that this is the correct format
-    };
+     // Create the order info object
+     const orderInfo = {
+       userId: userInfo ? userInfo.id : null,
+       name: userData.name,
+       address: userData.address,
+       city: userData.city,
+       paymentMethod: userData.paymentMethod,
+       totalPrice: totalPrice,
+       products: cart, // Ensure that this is the correct format
+     };
+ 
+     // Call handleConfirmOrder function passed from App.js
+     handleConfirmOrder(orderInfo); // Send order details to App.js for processing
+   };
 
-    // Call handleConfirmOrder function passed from App.js
-    handleConfirmOrder(orderInfo); // Send order details to App.js for processing
-  };
-
-  return (
+   return (
     <div className="checkout-container">
       <h1>Checkout</h1>
       <form onSubmit={handleSubmit} className="checkout-form">

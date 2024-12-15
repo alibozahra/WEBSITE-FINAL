@@ -121,7 +121,7 @@ function App() {
         />
       )}
 
-      {currentPage === 'cart' && (
+{currentPage === 'cart' && (
         <CartPage
           cart={cart}
           handleRemoveFromCart={handleRemoveFromCart}

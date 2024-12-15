@@ -42,7 +42,7 @@ body {
   }
   
   input {
-    width: 93%;
+    width: 100%;
     padding: 12px;
     font-size: 16px;
     border: 2px solid #ddd;
@@ -63,7 +63,7 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    width: 105%;
   }
   
   button.signup-btn:hover {
