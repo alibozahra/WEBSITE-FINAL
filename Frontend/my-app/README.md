@@ -1,6 +1,6 @@
 # ElectroFix - E-commerce and Repair Services Web Application
 
-**ElectroFix** is a web application built for an e-commerce platform specializing in electronic products and repair services. Users can browse electronic products, add them to their cart, proceed to checkout, and request repair services for their devices. This app offers both guest and registered user features with a user-friendly interface and cloud-based storage for user data and orders.
+**ElectroFix** is a web application built for an e-commerce platform specializing in electronic products and repair services. Users can browse electronic products, add them to their cart, proceed to checkout, and request repair services for their devices. This app offers registered user features with a user-friendly interface and cloud-based storage for user data and orders.
 
 ---
 
